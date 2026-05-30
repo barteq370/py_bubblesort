@@ -1,6 +1,6 @@
 #1. Rozwiązanie książkowe (z użyciem funkcji)
 
-def bubble_sort(lista):                                         #definicja funkcji która potem jest wywoływana w linijce 16
+def bubble_sort(lista):                                         #definicja funkcji która potem jest wywoływana w linijce 18
     n = len(lista)                                              #n = długość listy (len - length)
     for i in range(n-1):                                        #pętla która przechodzi przez wszystkie elementy listy (w nawiasie można napisać "0, n-1" żeby było bardziej czytelne)
         for j in range(0, n-i-1):                               #pętla która przechodzi przez wszystkie elementy listy oprócz tych które już są posortowane
